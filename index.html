@@ -7,8 +7,57 @@
     <title>Penguin Fashion</title>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/4f2981538c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between container pt-4">
+        <div class="logo">
+            <a class="navbar-brand" href="#"><img src="resources/images/logo.png" height="39.27px" width="291.11px" alt=""></a>
+        </div>
+        <div class="nav_links">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav_font">
+              <li class="nav-item  pe-5">
+                <a class="nav-link active text-black" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item  pe-5">
+                <a class="nav-link text-black" href="#">Product</a>
+              </li>
+              <li class="nav-item  pe-5">
+                <a class="nav-link text-black" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+<main>
+ <section class="main-section container pb-5">
+     <div class="row align-items-center">
+        <div class="col">
+            <h1 class="font-custom"><span style="color: #FABE4C;">Be the Penguins</span> of Winter</h1>
+            <p class="nav_font">A better way to showcase and get new cool designed products. We value your choices.</p>
+            <button class="border-0 text-white rounded btn pt-2 pb-2 ps-3 pe-3"><i class="fas fa-shopping-cart pe-2"></i>Buy Now</button>
+        </div>
+        <div class="col main-section-img">
+            <img class="main-section-image" src="resources/images/model.png" height="auto" width="440.72px" alt="">
+        </div>
+     </div>
+ </section>   
+ <section class="product-section container">
+
+ </section>   
+</main>
+<script src="js/bootstrap.bundle.min.js"></script>    
 </body>
 </html>
